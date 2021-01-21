@@ -1,0 +1,73 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+.slide {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.main {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #eeeeee 100%),
+    #ffffff;
+}
+
+#about-section {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #eeeeee 100%),
+    #ffffff;
+  padding: 80px 0;
+}
+#divider {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+#divider hr {
+  margin: 0;
+  width: 90%;
+  height: 1px;
+  margin: auto;
+}
+
+#gallery-section {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #eeeeee 100%),
+    #ffffff;
+  padding: 80px 0;
+}
+
+#gallery-section .gallery .item {
+  width: 33%;
+}
+
+#gallery-section img {
+  width: 100%;
+  height: 200px;
+}
+#contact-section {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #eeeeee 100%),
+    #ffffff;
+  padding: 80px 0;
+}
+
+#contact-section form .form-control {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+#contact-section form .form-control {
+  resize: none;
+}
+/* @media (max-width: 600px) {
+  #gallery-section {
+    
+  }
+} */
+
+@media (max-width: 800px) {
+  #gallery-section .gallery {
+    width: 49%;
+  }
+  #gallery-section .gallery .item img {
+    width: 100%;
+  }
+}
